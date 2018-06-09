@@ -13,6 +13,7 @@
 		D285023F20CBAFCB0057C9B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D285023D20CBAFCB0057C9B1 /* Main.storyboard */; };
 		D285024120CBAFCC0057C9B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D285024020CBAFCC0057C9B1 /* Assets.xcassets */; };
 		D285024420CBAFCC0057C9B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D285024220CBAFCC0057C9B1 /* LaunchScreen.storyboard */; };
+		D285024C20CBD3330057C9B1 /* PlaceSuggestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D285024B20CBD3330057C9B1 /* PlaceSuggestionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D285024020CBAFCC0057C9B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D285024320CBAFCC0057C9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D285024520CBAFCC0057C9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D285024B20CBD3330057C9B1 /* PlaceSuggestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSuggestionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				D285024020CBAFCC0057C9B1 /* Assets.xcassets */,
 				D285024220CBAFCC0057C9B1 /* LaunchScreen.storyboard */,
 				D285024520CBAFCC0057C9B1 /* Info.plist */,
+				D285024B20CBD3330057C9B1 /* PlaceSuggestionViewController.swift */,
 			);
 			path = MapApp;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D285024C20CBD3330057C9B1 /* PlaceSuggestionViewController.swift in Sources */,
 				D285023C20CBAFCB0057C9B1 /* ViewController.swift in Sources */,
 				D285023A20CBAFCB0057C9B1 /* AppDelegate.swift in Sources */,
 			);
